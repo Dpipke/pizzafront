@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    font-weight: 400;
+}
+body{
+    width: 100vw;
+}
+ul li{
+    list-style-type: none;
+}
+/* header */
+header, footer{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(34, 34, 34, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header{
+    height: 15vh
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.ul-nav{
+    display: flex;
+
+}
+h1, h3{
+    color: #39B24A;
+}
+.red, h2{
+    color: #FC200C;
+}
+.white, ul{
+    color: #F3F3F3;
+}
+/* main */
+main{
+    background: #E5E5E5;
+    height: calc(100vh - 37vh);
+    display: flex;
+
+}
+section{
+    display: flex;
+    gap: 5px;
+    padding: 70 19px;
+}
+.promotion, .top-five{
+    width: 48vw;
+    border-radius: 5px;
+}
+
+.promotion{
+    background:rgba(34, 34, 34, 1) url(../images/delivery.jpg) no-repeat;
+    background-size:cover ;
+    
+}
+.top-five{
+    background-color: rgba(255, 255, 255, 1);
+}
+.top-five-and-photo{
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+
+}
+.pizza-podium{
+    display: block;
+    text-align: center;
+}
+ol, h3, h1{
+    font-weight: 700;
+}
+.h3-top.five{
+    display: block;
+}
+/* footer */
+
+
+footer{
+    height: 22vh;
+}
